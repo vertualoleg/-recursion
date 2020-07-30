@@ -12,7 +12,11 @@ def draw_eyes(x,y,R,color:str):
     brushColor("black")
     circle(x+125,y,R-30)
     
+def draw_mouth(x,y,x2,y2,color="black"):
+    brushColor(color)
+    rectangle(x,y,x2,y2)
 
 draw_face(250,250,150,"yellow")
 draw_eyes(190,215,40,"red")
+draw_mouth(190,330,315,350)
 run()
