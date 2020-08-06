@@ -15,8 +15,12 @@ def draw_eyes(x,y,R,color:str):
 def draw_mouth(x,y,x2,y2,color="black"):
     brushColor(color)
     rectangle(x,y,x2,y2)
-
+#def draw_eyebrows(x,y,x2,y2,color="black"):     FIXME
+  #  brushColor(color)
+   # rectangle(x,y,x2,y2)
 draw_face(250,250,150,"yellow")
 draw_eyes(190,215,40,"red")
 draw_mouth(190,330,315,350)
+#draw_eyebrows(100,150,230,205)
 run()
+
